@@ -12,7 +12,7 @@ function TopBar() {
                     {
                         userDetails !== '' // user logged in
                         ? <span>Welcome, {userDetails} <a href="">Logout</a></span>
-                        : <a href="/.auth/login/github">Login</a>
+                        : <a href="/.auth/login/aad">Login</a>
                     }
                 </span>
             </section>
